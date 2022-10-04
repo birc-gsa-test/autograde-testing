@@ -1,4 +1,4 @@
-name: Checking code
+name: GitHub Classroom Workflow
 on: [push]
 permissions:
   checks: write
@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   build:
-    name: Autograding
+    name: XX
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
