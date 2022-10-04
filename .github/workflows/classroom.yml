@@ -6,7 +6,7 @@ permissions:
   contents: read
 jobs:
   build:
-    name: XX
+    name: Autograde
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
